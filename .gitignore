@@ -1,0 +1,10 @@
+# vscode files
+.vscode/
+.VSCodeCounter/
+
+# folders
+build/
+obj/
+tests/
+include/wx/
+lib/
