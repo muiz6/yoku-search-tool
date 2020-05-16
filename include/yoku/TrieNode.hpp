@@ -13,7 +13,6 @@ namespace yoku {
 
         public:
             TrieNode(char key, bool isEndOfWord = false);
-            static TrieNode* sCreateTree(std::string word);
             virtual ~TrieNode();
             char getKey() const;
             std::vector<TrieNode*>& getChildren();
